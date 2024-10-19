@@ -62,7 +62,9 @@
         width: 100%;
         margin-bottom: 20px;
     }
-
+    .product_part .productCard .item .img img{
+        width: 100%;       
+    }
     .product_part .productCard .item .socialBtn ul li {
         padding: 10px 15px;      
     }
