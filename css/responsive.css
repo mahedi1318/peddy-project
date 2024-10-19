@@ -1,0 +1,56 @@
+@media screen and (min-width: 320px) { 
+    /* <!-- ********************Details Part****************************** --> */
+    .details_part{
+        height: 700px;
+    }
+    .details_part .details_Card {
+        width: 100%;       
+    }
+    .details_part .details_Card .text .main {
+        display: block;
+    }
+  }
+  @media screen and (min-width: 600px) { 
+    /* <!-- ********************Details Part****************************** --> */
+    .details_part{
+        height: 740px;
+    }
+    .details_part .details_Card {
+        width: 100%;       
+    }
+    .details_part .details_Card .text .main {
+        display: flex;
+    }
+  }
+  @media screen and (min-width: 768px) { 
+    /* <!-- ********************Details Part****************************** -->   */
+    .details_part .details_Card {
+        width: 100%;       
+    }
+    .details_part .details_Card .text .main {
+        display: flex;
+    }
+  }
+
+  @media screen and (min-width: 992px) { 
+    /* <!-- ********************Details Part****************************** --> */
+    .details_part .details_Card {
+        width: 100%;       
+    }
+    .details_part .details_Card .text .main {
+        display: flex;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {  
+    /* <!-- ********************Details Part****************************** --> */
+    .details_part{
+        height: 100vh;
+    }  
+    .details_part .details_Card {
+        width: 45%;       
+    }
+    .details_part .details_Card .text .main {
+        display: flex;
+    }
+  }
