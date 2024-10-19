@@ -111,7 +111,7 @@ a{
 
 /* *******************Product Part start**************** */
 
-.product_part{    
+.product_part{ 
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -195,15 +195,23 @@ a{
     border-radius: 15px;  
 }
 
-.product_part .productCard .main{
-    display: flex;
-    justify-content: space-between;
+
+.product_part .productCard .prd_list .main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.product_part .productCard .prd_list .main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
     margin-top: 30px;
 }
 
-.product_part .productCard .item {
-    width: 23%;
-    padding: 20px 20px;
+.product_part .productCard .prd_list .main .item {
+    width: 100%;
+    padding: 20px 20px;  
     box-shadow: 1px 1px 3px 2px lightblue;
     border-radius: 10px;
 }
