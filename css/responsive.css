@@ -6,6 +6,8 @@
         display: none;
     }
 
+    /* <!-- **************HERO PART part********** --> */
+
     .hero {
         height: 570px;
     }
@@ -23,6 +25,25 @@
     .hero .details .img img{
         width: 100%;
     }
+
+    /* <!-- **************Product PART start********** --> */
+
+    .product_part .title h2 {       
+        font-size: 35px;      
+    }
+
+    .product_part .title p {        
+        font-size: 15px;      
+        width: 271px;        
+    }
+
+    .product_part .productTab ul {
+        display: block;
+    }
+
+    .product_part .productTab ul li{
+        margin-bottom: 20px;
+    }
     /* <!-- ********************Details Part****************************** --> */
     .details_part{
         height: 700px;
@@ -34,7 +55,21 @@
         display: block;
     }
   }
+
+
+
+
+
+
   @media screen and (min-width: 600px) { 
+    /* <!-- **************Product PART start********** --> */
+    .product_part .productTab ul {
+        display: block;
+    }
+
+    .product_part .productTab ul li{
+        margin-bottom: 20px;
+    }
     /* <!-- ********************Details Part****************************** --> */
     .details_part{
         height: 740px;
@@ -46,6 +81,14 @@
         display: flex;
     }
   }
+
+
+
+
+
+
+
+
   @media screen and (min-width: 768px) { 
     .nav .navMenu {
         display: block;
@@ -53,6 +96,8 @@
       .nav .userIcon{
           display: block;
       }
+
+      /* <!-- **************HERO PART part********** --> */
 
       .hero{
         height: 900px;    
@@ -74,10 +119,20 @@
         font-weight: 700;
         width: 647px;
     }
-    
+
     .hero .details .img img{
         width: 60%;
     }
+
+    /* <!-- **************Product PART start********** --> */
+    .product_part .productTab ul {
+        display: flex;
+    }
+
+    .product_part .productTab ul li{
+        margin-bottom: 0px;
+    }
+
     /* <!-- ********************Details Part****************************** -->   */
     .details_part .details_Card {
         width: 60%;       
@@ -87,6 +142,11 @@
     }
   }
 
+
+
+
+
+
   @media screen and (min-width: 992px) { 
     .nav .navMenu {
         display: block;
@@ -94,6 +154,8 @@
       .nav .userIcon{
           display: block;
       }
+
+    /* <!-- **************HERO PART part********** --> */
 
       .hero{
         height: 900px;    
@@ -117,6 +179,15 @@
     }
     .hero .details .img img{
         width: 60%;
+    }
+
+    /* <!-- **************Product PART start********** --> */
+    .product_part .productTab ul {
+        display: flex;
+    }
+
+    .product_part .productTab ul li{
+        margin-bottom: 0px;
     }
     /* <!-- ********************Details Part****************************** --> */
     .details_part .details_Card {
@@ -127,6 +198,12 @@
     }
   }
 
+
+
+
+
+
+
   @media screen and (min-width: 1200px) {  
     .nav .navMenu {
         display: block;
@@ -135,7 +212,9 @@
           display: block;
       }
 
-      .hero{
+    /* <!-- **************HERO PART part********** --> */
+
+    .hero{
         height: 900px;    
     }    
     
@@ -157,6 +236,22 @@
     }
     .hero .details .img img{
         width: 60%;
+    }
+   /* <!-- **************Product PART start********** --> */
+   .product_part .title h2{    
+    font-size: 40px;   
+    }
+
+    .product_part .title p{   
+        font-size: 16px;   
+        width: 600px;  
+    }
+    .product_part .productTab ul {
+        display: flex;
+    }
+
+    .product_part .productTab ul li{
+        margin-bottom: 0px;
     }
     /* <!-- ********************Details Part****************************** --> */
     .details_part{
