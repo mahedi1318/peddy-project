@@ -93,6 +93,10 @@
     .details_part .details_Card .text .main {
         display: block;
     }
+    /* ********************congrats Part****************************** */
+    .congrats_part .cgs_item{
+        width: 100%;
+    }
   }
 
 
@@ -237,6 +241,10 @@
     }
     .details_part .details_Card .text .main {
         display: flex;
+    }
+     /* ********************congrats Part****************************** */
+     .congrats_part .cgs_item{
+        width: 60%;
     }
   }
   
@@ -424,6 +432,11 @@
     }
     .details_part .details_Card .text .main {
         display: flex;
+    }
+
+    /* ********************congrats Part****************************** */
+    .congrats_part .cgs_item{
+        width: 30%;
     }
 
   }
